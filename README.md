@@ -535,7 +535,7 @@ resource "aws_security_group" "backend" {
 }
 ````````````````
 
-## Creating Instances :
+### Creating Instances :
 ```````
 # =====================================================
 # Creating Ec2 Instance For Frontend
@@ -599,7 +599,7 @@ resource "aws_instance"  "bastion" {
 
 Here we have created 3 instances. One in public subnet-1 ,One in private subnet-1 and other in oublic subnet-2.
 
-## Setting Output :
+### Setting Output :
 ````````
 output "frontend-public-ip" {
     
